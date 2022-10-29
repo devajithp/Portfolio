@@ -1,0 +1,44 @@
+.certificationTitle
+{
+    margin-left: 161px;
+    margin-top: 100px;
+}
+.cards
+{
+    display:flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.cards::-webkit-scrollbar
+{
+    display:none
+}
+.certificateCard
+{
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 125px;
+    perspective: 1000px;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 30px;
+    cursor: pointer;
+    
+}
+.certificateCard:hover
+{
+  background-color: rgb(157, 43, 43);
+  color:white;
+  scale: 1.1;
+}
+.cards
+{
+    display:flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.cards::-webkit-scrollbar
+{
+    display:none
+}

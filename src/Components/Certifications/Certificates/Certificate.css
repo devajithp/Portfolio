@@ -1,0 +1,14 @@
+.imagePosition
+{   margin-top: -267px;
+    margin-left: 936px;
+    height: 250px;
+    width:250px;
+    opacity: 0.5;
+}
+.imagePosition:hover
+{   opacity:1;
+    scale:1.8
+}
+
+  
+ 

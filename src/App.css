@@ -1,0 +1,45 @@
+body{
+    font-family: monospace;
+    background-image: linear-gradient(to right, black , #595353);
+ color: white;
+ 
+
+}
+.title
+{
+    color: rgb(157, 43, 43);
+    margin-left: 100px;
+    font-size: 36px;
+    margin-top: 7px;
+    font-weight: 800;
+    position: fixed;
+   
+}
+.navBar
+{
+    display: flex;
+    font-family: monospace;
+    color: white;
+}
+.otherNavs
+{
+    display: flex;
+    margin-top: 4px;
+    margin-left: 582px;
+    
+    position: fixed;
+}
+
+.eachNav
+{
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+.eachNav:hover
+{
+  opacity: 0.7;
+}
+
+
+

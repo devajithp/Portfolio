@@ -1,0 +1,26 @@
+.quickAbout
+{
+    max-width: 450px;
+}
+.lineSpace
+{
+    line-height: 0.4;
+}
+.homeTexts
+{
+    margin-top: 133px;
+    margin-left: 130px
+}
+.hiremeButton
+{
+    border:none;
+    border-radius: 3px;
+    padding: .45rem;
+    background-color: rgb(157, 43, 43);
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+    
+
+
+}
