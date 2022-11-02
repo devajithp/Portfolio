@@ -14,26 +14,31 @@ function App() {
   const history=useHistory()
   return (
     <div className="App">
-      <div className='navBar'>
+      <div className='navBar d-flex'>
+        <div className='row'>
+             <div >
             <h1 className='title'>Devajith</h1>
-         <div className='otherNavs'>
-             <h2 onClick={()=>{history.push('/')
+            </div>
+         <div className='otherNavs '>
+             <h4 onClick={()=>{history.push('/')
                                
-                              }} className='eachNav'>Home</h2>
-             <h2 onClick={()=>{history.push('/works')
+                              }} className='eachNav'>Home</h4>
+             <h4 onClick={()=>{history.push('/works')
                                
-                              }} className='eachNav'>Works</h2>
+                              }} className='eachNav'>Works</h4>
              
-             <h2 onClick={()=>{history.push('/about')
+             <h4 onClick={()=>{history.push('/about')
                                 
-                              }}className='eachNav'>About</h2>
-            <h2 onClick={()=>{history.push('/services')
+                              }}className='eachNav'>About</h4>
+            <h4 onClick={()=>{history.push('/services')
                                 
-                              }} className='eachNav'>Services</h2>
-            <h2 onClick={()=>{history.push('/certifications')
+                              }} className='eachNav'>Services</h4>
+            <h4 onClick={()=>{history.push('/certifications')
                                 
-                              }} className='eachNav'>Awards & Certifications</h2>
+                              }} className='eachNav'>Awards & Certifications</h4>
+                              
          </div>
+           </div>
       </div>
       
       <Route path="/"><Home></Home></Route> 

@@ -3,7 +3,11 @@ import './Home.css'
 
 function Home() {
   return (
+    
     <div className='homeTexts'>
+      
+        <div className='row'>
+          <div className="col-sm-12 col-12 col-md-3 col-lg-3 col-xl-3">
       <div className='lineSpace'>
       <h2 style={{color:'#e82020'}}>Hello!</h2>
       <h1 className='bigTitle' style={{fontSize:'60px'}}>I Am DEVAJITH</h1>
@@ -11,6 +15,9 @@ function Home() {
       <p className='quickAbout'>I'm Passionate Self-Taught<span style={{fontWeight:"700"}}> MERN-Stack Developer</span>,For past one year I have been working in Tata consultancy services 
       .I would like to be a part of a good team having a good work culture </p>
       <button className='hiremeButton'>Hire Me</button>
+      </div>
+      </div>
+      
     </div>
   )
 }

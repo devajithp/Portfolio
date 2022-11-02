@@ -4,12 +4,15 @@ import "./About.css"
 function About() {
   return (
     <div>
-      <h1 className='aboutTitle'>About Me</h1>
+      <div>
+      <h2 className='aboutTitle'>About Me</h2>
+      </div>
       <div className='cards'>
-      <div class="flip-card">
+        <div className='row'>
+      <div className="flip-card mt-2 col-sm-12 col-12 col-md-4 col-lg-4 col-xl-4">
   <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <h1 className='frontCardTitle'>Brief Introduction </h1>
+    <div className="flip-card-front">
+      <h3 className='frontCardTitle'>Brief Introduction </h3>
       
     </div>
     <div style={{padding:"10px"}} class="flip-card-back"> 
@@ -19,48 +22,48 @@ function About() {
       I have  concrete knowledge in HTML, CSS, JavaScript, ReactJS, NodeJs. Also I made good skill in handling frameworks and libraries
       like Axios, Handlebars, Bootstrap.
       </p>  
-      <p style={{textAlign:"justify",fontSize:"12px"}}>I am the person who seek new Challenges beacuse Challenges makes me self motivated and enables it me to learn new things. </p>   
+      <p style={{textAlign:"justify",fontSize:"12px"}}>I am the person who seek new Challenges beacuse Challenges makes me self motivated and it enable me to learn new things. </p>   
       
          
          
     </div>
   </div>
 </div>
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <h1 className='frontCardTitle'>Education</h1>
+<div className="flip-card mt-2 col-sm-12 col-12 col-md-4 col-lg-4 col-xl-4">
+  <div className="flip-card-inner">
+    <div className="flip-card-front">
+      <h3 className='frontCardTitle'>Education</h3>
       
     </div>
-    <div class="flip-card-back"> 
+    <div className="flip-card-back"> 
          
-      <h1 className='educationLevel'>B-Tech</h1>
-      <h3>College of Engineering, Trivandrum</h3>
-      <h3>CGPA: <span style={{fontWeight:'800'}}>9.24</span></h3>
-      <h1 className='educationLevel'>Plus two</h1>
-      <h3>Devadhar higher Secondary school Tanur</h3>
-      <h3>Percentage: <span style={{fontWeight:'800'}}>93</span></h3>
+      <h4 style={{marginTop:"20px"}} className='educationLevel'>B-Tech</h4>
+      <h5>College of Engineering, Trivandrum</h5>
+      <h6>CGPA: <span style={{fontWeight:'800'}}>9.24</span></h6>
+      <h4 className='educationLevel'>Plus two</h4>
+      <h5>Devadhar higher Secondary school Tanur</h5>
+      <h6>Percentage: <span style={{fontWeight:'800'}}>93</span></h6>
         
     </div>
   </div>
 </div>
-<div class="flip-card">
+<div class="flip-card mt-2 col-sm-12 col-12 col-md-4 col-lg-4 col-xl-4">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <h1 className='frontCardTitle'>Contact Details </h1>
+      <h3 className='frontCardTitle'>Contact Details </h3>
       
     </div>
     <div class="flip-card-back"> 
-      <h3 className='emailMargin'>E-mail- devajithmr@gmail.com</h3>  
-      <h3 className=''>Mobile- 8139819671</h3> 
-      <h2 style={{color:'black'}}>Connect me through Social networks</h2> 
+      <h5 className='emailMargin'>E-mail- devajithmr@gmail.com</h5>  
+      <h5 className=''>Mobile- 8139819671</h5> 
+      <h6 style={{color:'black'}}>Connect me through Social networks</h6> 
      <a href='https://github.com/devajithp'><i style={{fontSize:'36px',color:'white'}} class="fa fa-github"></i> </a>  
      <a href='https://www.linkedin.com/in/devajith-p-1a2983182/'><i style={{fontSize:'36px',color:'white',marginLeft:'20px'}} class="fa fa-linkedin"></i> </a>  
       
     </div>
   </div>
 </div>
-
+ </div>
    </div>
     </div>
   )

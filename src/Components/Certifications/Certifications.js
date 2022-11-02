@@ -21,32 +21,33 @@ function Certifications() {
     <div>
       <Certificate  id={image}></Certificate>
      
-      <h1 className='certificationTitle'>Awards and Certifiations</h1>
-      <div className='cards'>
+      <h2 className='certificationTitle'>Awards and Certifiations</h2>
+      <div className='cards mt-5 '>
+         <div className='row'>
       
-      <div id='mongo' onClick={displayImage}  className='certificateCard'>
+      <div id='mongo' onClick={displayImage}  className='certificateCard mt-3 col-sm-8 col-8 col-md-4 col-lg-4 col-xl-4'>
       
-         <h3 className=''>MongoDB Assosiate Certifiation</h3>
+         <h6 className=''>MongoDB Assosiate Certifiation</h6>
       </div>
       
-      <div id='gems'onClick={displayImage} className='certificateCard'>
-         <h3 className=''>TCS Gems Award</h3>
+      <div id='gems'onClick={displayImage} className='certificateCard mt-3 col-sm-8 col-8 col-md-4 col-lg-4 col-xl-4'>
+         <h6 className=''>TCS Gems Award</h6>
       </div>
-      <div id='java'onClick={displayImage} className='certificateCard'>
-         <h3 className=''>Core Java LinkedIn certificate</h3>
+      <div id='java'onClick={displayImage} className='certificateCard mt-3 col-sm-8 col-8 col-md-4 col-lg-4 col-xl-4'>
+         <h6 className=''>Core Java LinkedIn certificate</h6>
       </div>
-      <div id='agile'onClick={displayImage} className='certificateCard'>
-         <h3 className=''>Agile for beginners certificate</h3>
+      <div id='agile'onClick={displayImage} className='certificateCard mt-3 col-sm-8 col-8 col-md-4 col-lg-4 col-xl-4'>
+         <h6 className=''>Agile for beginners certificate</h6>
       </div>
-      <div id='mysql'onClick={displayImage} className='certificateCard'>
-         <h3 className=''>MySQL LinkedIn certificate</h3>
+      <div id='mysql'onClick={displayImage} className='certificateCard mt-3 col-sm-8 col-8 col-md-4 col-lg-4 col-xl-4'>
+         <h6 className=''>MySQL LinkedIn certificate</h6>
       </div>
-      <div id='chief'onClick={displayImage} className='certificateCard'>
-         <h3 className=''>Cheif Minister's Student Excellence Award for under graduation</h3>
+      <div id='chief'onClick={displayImage} className='certificateCard mt-3 col-sm-8 col-8 col-md-4 col-lg-4 col-xl-4'>
+         <h6 className=''>Cheif Minister's Student Excellence Award for under graduation</h6>
       </div>
       </div>
      
-      
+      </div>
     </div>
 
   )
